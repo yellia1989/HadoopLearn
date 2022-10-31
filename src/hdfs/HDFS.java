@@ -1,4 +1,4 @@
-package demo;
+package hdfs;
 
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.fs.*;
@@ -8,7 +8,7 @@ import org.apache.hadoop.hdfs.protocol.DatanodeInfo;
 import java.io.IOException;
 import java.util.Arrays;
 
-public class Main {
+public class HDFS {
     public static void main(String[] args) throws IOException {
         // 指定当前的hadoop用户
         System.setProperty("HADOOP_USER_NAME", "root");
